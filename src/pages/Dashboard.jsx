@@ -95,7 +95,7 @@ function Dashboard() {
     <div className="container">
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-        <img src="/public/logo11.png" alt="VDL Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
+        <img src="/logo11.png" alt="VDL Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
         <h1 style={{ margin: 0 }}>VINAYAK DIGITAL LIBRARY KARHAN-MAU, UP (276402)</h1>
       </div>
 
@@ -121,7 +121,7 @@ function Dashboard() {
       {/* About Section */}
       <div className="about-section">
         <div className="profile">
-          <img src="/public/Vdlsir1.png" alt="Owner" className="circular-img" />
+          <img src="/Vdlsir1.png" alt="Owner" className="circular-img" />
           <p>
             <strong>Director: Shashi Bhushan Singh</strong>
             <br />
