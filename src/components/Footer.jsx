@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-  <img src="/public/logo11.png" alt="VDL Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
+  <img src="/logo11.png" alt="VDL Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
   <h1 style={{ margin: 0 }}>Vinayak Digital Library</h1>
 </div>
           <p>Empowering students with smart education tools.</p>
