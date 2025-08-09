@@ -19,6 +19,7 @@ import UpdateHistory from "./components/UpdateHistory";
 import ForgotPassword from './pages/ForgotPassword';
 import FeeReceipt from "./pages/FeeReceipt";
 import AdminNotices from "./pages/AdminNotices";
+import ExportData from "./pages/ExportData";
 
 import "./style.css";
 
@@ -44,6 +45,14 @@ function App() {
               <Route path="/students" element={<PrivateRoute><StudentList /></PrivateRoute>} />
               <Route path="/fee-tracking" element={<PrivateRoute><FeeTracking /></PrivateRoute>} />
               <Route path="/admin/notices" element={<PrivateRoute><AdminNotices /></PrivateRoute>} />
+              <Route
+  path="/export-data"
+  element={
+    <PrivateRoute>
+      <ExportData />
+    </PrivateRoute>
+  }
+/>
               <Route path="/edit/:id" element={<EditStudent />} />
               {/* 🔑 Admin Login */}
               <Route path="/login" element={<AdminLogin />} />
