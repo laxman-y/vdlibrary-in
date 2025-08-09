@@ -14,7 +14,7 @@ html, body {
 .container {
   background: rgba(255, 255, 255, 0.9);
   max-width: 1000px;
-  margin: 60px auto;
+  margin: 80px auto;
   padding: 40px 30px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -199,7 +199,12 @@ justify-content: space-around;
     width: 100%;
     flex-direction: column;
     background-color: #303f9f;
-    padding: 10px 0;
+    padding: .2rem;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+    /* position: absolute;
+    top: 60px;
+    left: 0;   */
   }
 
   .nav-links a {
@@ -213,8 +218,8 @@ justify-content: space-around;
   }
 
   .dashboard-container {
-    margin: 40px;
     padding: 20px;
+    margin: 15rem auto;
   }
 
   .student-table th,
@@ -349,6 +354,7 @@ justify-content: space-around;
     flex-direction: column;
     text-align: center;
   }
+   
 }
 
 
@@ -471,8 +477,8 @@ justify-content: space-around;
 /* ===== Fee Receipt Page Styles ===== */
 .receipt-container {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 25px;
+   margin: 60px auto;
+  padding: 40px 30px;
   background: #fff;
   border: 2px solid #333;
   border-radius: 8px;
@@ -529,6 +535,12 @@ justify-content: space-around;
 }
 
 /* ===== Print Styles ===== */
+@media (max-width: 768px) {
+  .receipt-container {
+    padding: 20px;
+    margin: 15rem auto;
+  }
+}
 @media print {
   body * {
     visibility: hidden;
@@ -541,7 +553,8 @@ justify-content: space-around;
     top: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    padding: 20px;
+    margin: 15rem auto;
     border: none;
     box-shadow: none;
   }
