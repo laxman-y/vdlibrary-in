@@ -141,12 +141,6 @@ function Dashboard() {
         </div>
       </div>
 
-      <div style={{ marginTop: "25px", textAlign: "center" }}>
-        <button onClick={handleExport} disabled={loading}>
-          📥 Export Student + Fee + Attendance to Excel
-        </button>
-      </div>
-
       <div className="dashboard-grid">
         <Link to="/add-student" className="card">➕ Add Student</Link>
         <Link to="/students" className="card">📋 View Students</Link>
@@ -157,6 +151,10 @@ function Dashboard() {
         <Link to="/updates" className="card">📋 Update History</Link>
         <Link to="/download-receipt" className="card">📄 Download Receipt</Link>
         <Link to="/admin/notices" className="card">📢 Manage Notices</Link>
+        <Link to="/export-data" className="card">
+  📥 Export Student + Fee + Attendance
+</Link>
+
       </div>
     </div>
   );
