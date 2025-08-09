@@ -13,7 +13,7 @@ export function playGreeting(studentName, isEntry = true) {
   const message = `${greeting} ${studentName}. ${action}. Do respect of mother, father, guru and cow. Thank you.`;
 
   const utterance = new SpeechSynthesisUtterance(message);
-  utterance.rate = 0.9; // Slightly slower speed
+  utterance.rate = 1; // Slightly slower speed
   utterance.pitch = 1;
   utterance.volume = 1;
 
