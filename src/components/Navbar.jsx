@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="navbar">
      <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
   <img src="/logo11.png" alt="VDL Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
-  <h1 style={{ margin: 0 }}>Vinayak Digital Library</h1>
+  <h1 style={{ margin: '1rem 0', color: 'goldenrod'}}>Vinayak Digital Library</h1>
 </div>
       <div className="nav-links">
         <Link to="/">🏠 Dashboard</Link>
